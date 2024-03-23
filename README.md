@@ -1,66 +1,45 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Berikut adalah dokumentasi untuk program HTML yang menampilkan data mahasiswa dan statistik gender menggunakan Chart.js:
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Judul Program
+Data Mahasiswa - Statistik Gender
 
-## About Laravel
+## Deskripsi
+Program ini adalah aplikasi web sederhana yang menampilkan data mahasiswa dan statistik jumlah mahasiswa berdasarkan gender dalam bentuk diagram lingkaran (pie chart).
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Fitur Utama
+1. Menampilkan data mahasiswa dalam tabel.
+2. Membuat diagram lingkaran untuk menampilkan statistik gender mahasiswa.
+3. Memiliki fitur pencarian data mahasiswa berdasarkan nama.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Teknologi yang Digunakan
+1. HTML, CSS, dan JavaScript untuk tampilan dan logika program.
+2. Bootstrap untuk desain responsif dan komponen antarmuka pengguna.
+3. Laravel Blade untuk templating dan pengolahan data pada server.
+4. Chart.js untuk membuat diagram lingkaran statistik.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## Langkah-langkah Penggunaan
+1. Buka halaman web menggunakan browser.
+2. Pilih opsi "Cari berdasarkan nama" pada form pencarian dan masukkan nama mahasiswa yang ingin dicari.
+3. Klik tombol "Cari" untuk menampilkan hasil pencarian.
+4. Lihat tabel data mahasiswa yang sesuai dengan hasil pencarian.
+5. Lihat diagram lingkaran statistik gender mahasiswa untuk melihat jumlah mahasiswa berdasarkan gender.
 
-## Learning Laravel
+## Struktur Program
+1. **HTML (index.blade.php):** Berisi struktur HTML untuk tampilan antarmuka pengguna (UI).
+2. **CSS (Bootstrap):** Menerapkan desain responsif dan gaya antarmuka pengguna menggunakan Bootstrap.
+3. **JavaScript (Chart.js):** Menggunakan Chart.js untuk membuat diagram lingkaran statistik.
+4. **Laravel Blade (PHP):** Menggunakan Laravel Blade untuk menampilkan data mahasiswa dan statistik gender dari server.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## Cara Menjalankan Program
+1. Pastikan telah terhubung dengan internet untuk memuat file CSS dan JavaScript dari CDN.
+2. Simpan file program dengan ekstensi ".blade.php" (jika menggunakan Laravel) atau ".html" (jika menggunakan HTML murni).
+3. Buka file tersebut menggunakan browser yang mendukung HTML5 dan JavaScript.
+4. Lakukan pencarian data mahasiswa dengan memasukkan nama pada form pencarian.
+5. Lihat hasil pencarian pada tabel data mahasiswa dan diagram lingkaran statistik gender.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Referensi
+1. [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+2. [Chart.js Documentation](https://www.chartjs.org/docs/latest/)
+3. [Laravel Blade Documentation](https://laravel.com/docs/8.x/blade)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Dengan mengikuti langkah-langkah di atas, pengguna dapat menggunakan program untuk melihat data mahasiswa dan statistik gender secara interaktif melalui antarmuka web yang mudah digunakan.
